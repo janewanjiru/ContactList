@@ -9,7 +9,7 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-        var btncontact=findViewById<Button>(R.id.btcontact)
+        var btncontact=findViewById<Button>(R.id.btncontact)
 
         btncontact.setOnClickListener {
             var intent=Intent(baseContext,ContactActivity::class.java)
